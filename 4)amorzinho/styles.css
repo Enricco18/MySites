@@ -1,0 +1,51 @@
+body {
+    background-color: DarkSlateBlue;
+}
+
+.page-wrapper{
+    width: 50%;
+    margin: 0px auto;
+}
+
+.primeiro{
+    display: none;
+}
+
+.segundo{
+    display: none;
+}
+
+.terceiro{
+    display: none;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+    border: 0px darkslateblue;
+}
+
+button{
+    margin: 0px auto;
+
+    display: inline-block;
+}
+#begin{
+    background-color: DarkSlateBlue;
+}
+button:hover{
+    box-shadow: 0px 1px 8px 0px orangered; 
+}
+img{
+    background-color: DarkSlateBlue;
+}
+
+p{
+    font-size: 40px;
+    color: aliceblue;
+}
+h1{
+    font-size: 60px;
+}

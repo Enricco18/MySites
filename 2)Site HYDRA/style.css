@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body {
+    height:100%;
+}
+body{
+    min-height: 100%;
+    position: relative;
+}
+
+
+header{
+    position: relative;
+    z-index: 1px;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    box-shadow:  0px 10px 10px #1173c4a4;
+}
+
+
+header img{
+    height: 97px;
+    float: left;
+    color: #1173c4a4
+}
+
+header a{
+    padding: 40.5px 10px 40.5px 10px;
+    margin: auto 20px auto 0px;
+  float: right;
+  font-size: 19px;
+  font-weight: bold;
+  color: #236092
+}
+header a:hover{
+    background-color: #cccccc;
+	
+}
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: #000000c5;
+    color: white;
+}
+
+footer img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    margin: auto 0px auto 20px;
+}
+
+footer p{
+    text-align: center;
+}
+footer iframe{
+    float: right;
+    position: relative;
+    top: 0; 
+    right: auto;
+    bottom: 0;
+    margin: auto 20px auto 0px;
+}
+
+.container{
+    margin: 0px auto 0px auto;
+
+}
+.container img{
+    margin: 0px auto 0px auto;
+    display: block;
+    
+}
+
+table{
+    width: 300px;
+    display: block;
+    padding: 30px 30px 30px 30px;
+    margin: 50px auto 50px auto;
+    vertical-align: middle;
+    background-color: #ebe85ab6;
+    border: 1px solid black;
+}
+
+.graf{
+    display: block;
+    margin: 20px auto 10px auto;
+}
+
+fieldset{
+    width: 500px;
+    margin: 10px auto 10px auto;
+    padding-right: auto;
+    padding-left: auto;
+}
+.infos{
+    margin: 10px auto 10px auto;
+}
+ul{ 
+    width: 1350px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto 0px auto;
+    padding: 0px;
+}
+
+li{
+    display: inline-block;
+    background-color: #cccccc;
+    border: 1px black solid;
+}
+
+.alinhamento{
+    max-width: 920px;
+    margin: 10px auto;
+}
+
+.baixo{
+    height: 10px;
+    font-style: italic;
+    font-size: 8px;
+    background-color: black;
+    position: sticky;
+    color: white;
+    width: 100%;
+}

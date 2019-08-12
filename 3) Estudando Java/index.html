@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        
+        <script language="javascript" src="jquery.js"></script>
+        <title>Teste</title>
+        <meta charset="utf-8">    
+    </head>
+    <body style="background-color: DarkSlateBlue">
+    <!-->
+    Teste com a namoooo :)
+    <p>Oi amor!</p>
+    <button onclick="oi()">Clique aqui</button>
+    <p id="hide" style="display: none;">Eu te amo! e me desculpa pelas idiotices, vc é tudo pra mim.</p>
+    <p>Quem vc mais ama nesse mundo?</p>
+    <form>
+        <input type="text" id="s2">
+        <input type="submit" onclick="valida()">
+    </form>
+    <!-->
+        <!-- Escrever com o javascript-->
+        <div class="oi">
+        <img src="1.png" alt="1">
+        <input type="text" name="oi">
+        <input type="text" name="tchau">
+        <img src="2.png" alt="2">
+        </div>
+        <script>
+        //querySelecto pode pegar coisas dentro de tags , usa css Selectors e pode ser referenciado pelos atributos da tag
+        var div = document.querySelector('div.oi');
+        var pElement= document.createElement("p");
+        //da pra escrever criando uma variavel c o text e dar createTextNode e appendchild no pElement mas prefiro assim:
+        pElement.innerHTML= "oiii";
+        //setando atributos
+        pElement.setAttribute("id","abc");
+        // botando dentro de uma tag
+        div.appendChild(pElement);
+        console.log(div);
+        </script>
+        <script language="javascript" src="script.js"></script>
+    </body>
+</html>
